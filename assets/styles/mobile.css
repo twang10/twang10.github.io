@@ -2,8 +2,6 @@
 /* Responsive Helpers Under 1000px
 *********************************************************************************************/
 
-
-
 @media (max-width: 1000px) {
 
     /* Profile Panel
@@ -109,13 +107,21 @@
 
     /* Content Panel
     *****************************************************************************************/
-    
+    .rg_embed_body {
+        display: none;
+    }
+
+    #mobile-copy {
+        display: inherit;
+    }
+
+
     #content {
         top: 111px;
     } 
     
     #content .copy {
-        padding: 15px 15px 15px 15px;
+        padding: 76px 30px 30px 30px;
     }
     
     #content .copy h1 {
@@ -142,7 +148,7 @@
     }
     
     #content .copy #panel p {
-        padding: 57px 60px 0 60px;
+        padding: 15px 15px 0 15px;
     }
     
     #content .copy .panel {
