@@ -16,6 +16,14 @@ body {
     display: none;
 }
 
+.rg_embed_body {
+    padding-bottom: 15px!important;
+}
+
+#mobile-copy {
+    display: none;
+}
+
 *, 
 *:before, 
 *:after {
