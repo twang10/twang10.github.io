@@ -1,0 +1,173 @@
+
+/* Responsive Helpers Under 1000px
+*********************************************************************************************/
+
+@media (max-width: 1000px) {
+
+    /* Profile Panel
+    *****************************************************************************************/
+    
+    #profile {
+        height: 175px;
+    }
+    
+    #profile:after {
+        display: none;
+    }
+    
+    #profile img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        top: 200px;
+        margin-left: -75px;
+    }
+    
+    /* Content Panel
+    *****************************************************************************************/
+    
+    #content {
+        top: 206px;
+        left: 31px;
+        margin-left: 0;
+    }   
+    
+    #content .copy {
+        text-align: center;
+        padding-top: 120px;
+    }
+    
+    #content .copy span {
+        display: none;
+    } 
+}
+
+/* Responsive Helpers Under 600px
+*********************************************************************************************/
+
+@media (max-width: 600px) {
+
+    /* Profile Panel
+    *****************************************************************************************/
+    
+    #profile {
+        height: 110px;
+    }
+    
+    #profile img {
+        width: 120px;
+        height: 120px;
+        top: 150px;
+        margin-left: -60px;
+    }
+
+    /* Content Panel
+    *****************************************************************************************/
+    
+    #content {
+        top: 141px;
+        left: 31px;
+        margin-left: 0;
+    } 
+    
+    #content .copy {
+        padding-top: 105px;
+    }
+    
+    #content .copy h1 {
+        font-size: 28px;
+        line-height: 28px;
+        letter-spacing: -1px;
+    }
+    
+    #content .copy p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+/* Responsive Helpers Under 400px
+*********************************************************************************************/
+
+@media (max-width: 400px) {
+
+    /* Profile Panel
+    *****************************************************************************************/
+    
+    #profile {
+        height: 80px;
+    }
+    
+    #profile img {
+        width: 100px;
+        height: 100px;
+        top: 130px;
+        margin-left: -50px;
+    }
+
+    /* Content Panel
+    *****************************************************************************************/
+    
+    #content {
+        top: 111px;
+    } 
+    
+    #content .copy {
+        padding: 76px 30px 30px 30px;
+    }
+    
+    #content .copy h1 {
+        border-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 21px;
+    }
+    
+    #content .copy p {
+        border-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 24px;
+    }
+    
+    #content .copy #panel {
+        background-color: #ffffff;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        z-index: 4;
+    }
+    
+    #content .copy #panel p {
+        padding: 57px 60px 0 60px;
+    }
+    
+    #content .copy .panel {
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.75);
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+    }
+    
+    #content .copy .panel:before {
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin: 4px 0 0 -10px;
+        content: ''
+    }
+    
+    #content .copy .panel:after {
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        margin: 9px 0 0 -5px;
+        content: ''
+    }
+}
