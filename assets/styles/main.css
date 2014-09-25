@@ -62,7 +62,7 @@ body:after {
     content: '';
 }
 
-strong {
+strong, b {
     font-weight: 600;
 }
 
