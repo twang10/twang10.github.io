@@ -1,0 +1,177 @@
+
+/* Setup
+*********************************************************************************************/
+
+body {
+    background: url('http://i.imgur.com/0iI5RQS.jpg') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fa {
+    color: rgba(0, 0, 0, 0.75);
+    padding: 0px 5px;
+}
+
+.fa {
+    color: rgba(0, 0, 0, 0.75);
+    padding: 0px 5px;
+}
+
+.fa:hover {
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    color: #55acee;
+    top: -5px;
+    position: relative;
+}
+
+.rg_embed_footer {
+    display: none;
+}
+
+.rg_embed_header {
+    display: none;
+}
+
+.rg_embed_body {
+    padding-bottom: 15px!important;
+}
+
+#mobile-copy {
+    display: none;
+}
+
+*, 
+*:before, 
+*:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body:before,
+body:after {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    z-index: -1;
+    content: '';
+}
+
+strong, b {
+    font-weight: 600;
+}
+
+/* Profile Panel
+*********************************************************************************************/
+
+#profile {
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 50%;
+    position: fixed;
+    top: 31px;
+    bottom: 31px;
+    left: 31px;
+    z-index: 2;
+}
+
+#profile:before {
+    border-right: 1px dotted rgba(255, 255, 255, 0.095);
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    content: '';
+}
+
+#profile:after {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.095);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    content: '';
+}
+
+#profile img {
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    z-index: 3;
+}
+
+/* Content Panel
+*********************************************************************************************/
+
+#content {
+    background-color: rgba(255, 255, 255, 0.945);
+    position: fixed;
+    top: 31px;
+    bottom: 31px;
+    left: 50%;
+    z-index: 1;
+}
+
+#content .copy {
+    padding: 92px 50px 50px 50px;
+}
+
+@media (min-width: 1500px) {
+    #content .copy {
+        padding: 92px 100px 100px 100px;
+    }
+}
+
+@media (min-height: 800px) {
+    #content .copy {
+        padding: 160px 100px 100px 100px;
+    }
+}
+
+#content .copy h1 {
+    /*border-bottom: 1px dotted rgba(0, 0, 0, 0.075);*/
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    /*padding-bottom: 19px;
+    margin-bottom: 15px;*/
+}
+
+#content .copy p {
+    /*border-bottom: 1px dotted rgba(0, 0, 0, 0.075);*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+   /* padding-bottom: 20px;
+    margin-bottom: 25px;*/
+}
+
+
+#content .copy span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
