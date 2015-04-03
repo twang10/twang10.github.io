@@ -2,10 +2,21 @@
 /* Setup
 *********************************************************************************************/
 
-body {
+/*body {
     background: url('http://i.imgur.com/0iI5RQS.jpg') center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}*/
+
+img {
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    z-index: 3;
 }
 
 .fa {
