@@ -90,7 +90,7 @@ img {
     -moz-transition: all 0.20s ease-in-out;
     -ms-transition: all 0.20s ease-in-out;
     -o-transition: all 0.20s ease-in-out;
-    color: #55acee;
+    color: rgba(120,217,41,.5);
     top: -5px;
     position: relative;
 }
