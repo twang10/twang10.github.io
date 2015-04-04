@@ -39,7 +39,8 @@ if (window.innerWidth >= 667) {
 
 } else {
 	$('#style-tag').append(styles)
-	$('#style-tag').append(mobileStyles)
 	$('#buttons').append(buttons.join(''))
 }
+
+$('#style-tag').append(mobileStyles)
 
