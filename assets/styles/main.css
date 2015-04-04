@@ -1,8 +1,9 @@
 /* Main Styles 
 *********************************************************************************************/
+
 body {
     overflow: hidden;
-    background-color: black;
+    background-color: white;
 }
 
 img {
@@ -12,6 +13,26 @@ img {
     z-index: 3;
     border-bottom: 3px rgba(120,217,41,0.5) solid; 
 }
+
+#bg {
+    background: url('../../assets/images/profile3.jpeg') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 110%;
+    width: 110%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    margin: -5px -10px -10px -5px;
+}
+
 
 #parent {
     height: 100%;
@@ -49,33 +70,13 @@ img {
     color: rgba(0, 0, 0, 0.8);
 }
 
-#bg {
-    background: url('../../assets/images/profile3.jpeg') center center no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    display: block;
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    height: 110%;
-    width: 110%;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-    margin: -5px -10px -10px -5px;
-}
 
-*, 
-*:before, 
-*:after {
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-}
 
 strong, b {
     font-weight: 600;
 }
+
+
+
 
 
