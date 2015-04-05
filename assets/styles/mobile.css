@@ -49,7 +49,7 @@
 }
 
 
-@media (max-height: 480px) {
+@media (max-height: 500px) {
     img {
         display: none;
     }
