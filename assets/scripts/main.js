@@ -6,10 +6,10 @@ styles = ["img{width:100%;height:200px;object-fit:cover;z-index:3;border-bottom:
 mobileStyles="@media only screen and (max-width:750px){img{height:200px}#box{width:100%;height:100%;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}#words{width:95%}#words p{font-size:16px}.rg_embed{margin-top:0!important;margin-bottom:0!important;border-top:0!important;border-bottom:0!important}.rg_embed_body{padding-bottom:7px;padding-top:7px}#bg{display:none}}@media only screen and (min-device-width:375px) and (max-device-width:500px){img{height:150px}#words p{font-size:16px}}@media only screen and (max-device-width:374px){img{height:100px}#words p{font-size:14px}}@media (max-height:480px){img{display:none}}"
 
 buttons = ['<a href="mailto:thomas.wang@tufts.edu"><i class="fa fa-envelope fa-2x"></i></a>',
-				'<a href="http://github.com/twang10"><i class="fa fa-github fa-2x"></i></a>',
+				/*'<a href="http://github.com/twang10"><i class="fa fa-github fa-2x"></i></a>',*/
                 '<a href="http://twitter.com/wangisms"><i class="fa fa-twitter fa-2x"></i></a>',
                 '<a href="http://blog.womtang.me"><i class="fa fa-tumblr fa-2x"></i></a>',
-                '<a href="http://instagram.com/thomascool7"><i class="fa fa-instagram fa-2x"></i></a>',
+                '<a href="http://instagram.com/womtang"><i class="fa fa-instagram fa-2x"></i></a>',
                 '<a href="http://foursquare.com/wangisms"><i class="fa fa-foursquare fa-2x"></i></a>']
 
 writeChar = function(c) {
