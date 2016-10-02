@@ -1,0 +1,33 @@
+<html dir="ltr" lang="en">
+<head>
+    <title>Redirecting to SIS Login</title>  
+    <style id="ptfb" type="text/css">body{display:none;}</style>
+<script type="text/javascript">
+if (self === top) {
+    var fb = document.getElementById("ptfb");
+    fb.parentNode.removeChild(fb);
+} else {
+    try { 
+        top.location = self.location;
+    } catch(ex) {}
+}
+</script>
+    <meta name="viewport" id="tfp_meta-viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta http-equiv="refresh" content="0;url=https://sis.uit.tufts.edu/psp/paprd/?cmd=login">
+    <link href="https://sis.uit.tufts.edu/intrasee/styles/tfp_Signin.css" rel="stylesheet" />      
+</head>
+<body>
+    <div class="tfp_Container">
+        <div class="tfp_LoadingWrapper" id="tfp_LoadingWrapper">
+            <div class="tfp_Loading" id="tfp_Loading">
+                <div>
+                    <img src="/intrasee/images/ajax-loader.gif" />
+                </div>
+                <div>
+                    <span>Loading SIS Portal</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
